@@ -34,7 +34,7 @@ Execute the following to run coverage:
 npm run coverage
 ```
 This will generate a `./.nyc_output` and a `./coverage` folders, where the coverage
-data lays.
+data is saved.
 
 ### Build single file for browser
 Execute the following to build the file:
