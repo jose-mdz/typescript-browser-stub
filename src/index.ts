@@ -1,5 +1,5 @@
-import {View} from "./View";
-import {ViewController} from "./ViewController";
+import {ViewController} from "./controllers/ViewController";
+import {View} from "./views/View";
 
 export const main = function () {
 

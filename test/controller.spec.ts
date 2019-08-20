@@ -1,8 +1,8 @@
 
 import 'mocha';
 import {assert} from 'chai';
-import {View} from "../src/View";
-import {ViewController} from "../src/ViewController";
+import {ViewController} from "../src/controllers/ViewController";
+import {View} from "../src/views/View";
 
 describe('Controller', () => {
 
