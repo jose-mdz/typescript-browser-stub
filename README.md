@@ -41,3 +41,11 @@ Execute the following to build the file:
 ```bash
 npm run build
 ```
+
+## Mark Idea IDE folders:
+Recommendation of (Right Click > Mark directory as > ...)
+
+- `html`: Resource Root
+- `html/static`: Excluded
+- `src`: Sources Root
+- `test`: Test Sources Root

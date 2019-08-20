@@ -1,0 +1,4 @@
+{
+  "report-dir": "./.coverage",
+  "temp-dir": "./.coverage/.nyc_output"
+}
