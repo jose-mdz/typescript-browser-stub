@@ -6,6 +6,13 @@ To setup after cloning (or copying), run:
 npm install
 ```
 
+## Features
+
+Where things go:
+- Source code on /src
+- Test sources on /test
+- Resources on /html
+
 ## Configuring Idea IDE Unit Testing: 
 
 - Run > 
@@ -14,15 +21,6 @@ npm install
 ```
 --require ts-node/register --require jsdom-global/register
 ```
-
-## Features
-
-Where things go:
-- Source code on /src
-- Test sources on /test
-- Resources on /html
-
-# How To's:
 
 ### Test on Idea IDE 
 - Useful for Webstorm, etc.
