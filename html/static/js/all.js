@@ -1,4 +1,4 @@
-define("View", ["require", "exports"], function (require, exports) {
+define("views/View", ["require", "exports"], function (require, exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     class View {
@@ -9,7 +9,7 @@ define("View", ["require", "exports"], function (require, exports) {
     }
     exports.View = View;
 });
-define("ViewController", ["require", "exports"], function (require, exports) {
+define("controllers/ViewController", ["require", "exports"], function (require, exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     class ViewController {
@@ -19,7 +19,7 @@ define("ViewController", ["require", "exports"], function (require, exports) {
     }
     exports.ViewController = ViewController;
 });
-define("index", ["require", "exports", "View", "ViewController"], function (require, exports, View_1, ViewController_1) {
+define("index", ["require", "exports", "controllers/ViewController", "views/View"], function (require, exports, ViewController_1, View_1) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.main = function () {
