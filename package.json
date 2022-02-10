@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/menendezpoo/test-stub-browser-javascript#readme",
   "dependencies": {
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "typescript": "^3.9.7"
   },
   "devDependencies": {
